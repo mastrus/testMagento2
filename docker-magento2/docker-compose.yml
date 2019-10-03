@@ -9,8 +9,8 @@ services:
     env_file:
       - env
     volumes:
-      - ../dev/admin:/var/www/html/app/code/testmenu/
-      - ../
+      - ./dev:/var/www/html/app/code/test
+      - ./dev/mytheme:/var/www/html/app/design/frontend/mytheme/default
   db:
     image: mysql:5.6.23
     volumes:
@@ -24,4 +24,5 @@ services:
     links:
       - db     
 volumes:
-  db-data: 
+  db-data:
+  dev:
