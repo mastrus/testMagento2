@@ -10,7 +10,7 @@ services:
       - env
     volumes:
       - ./dev:/var/www/html/app/code/test
-      - ./dev/mytheme:/var/www/html/app/design/frontend/mytheme/default
+      - ./dev/mytheme:/var/www/html/app/code/ale/adminpage
   db:
     image: mysql:5.6.23
     volumes:
