@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="AleAdminNewPage::module" title="Module test" translate="title" module="AleAdminNewPage" parent="Magento_Backend::content" sortOrder="50" dependsOnModule="AleAdminNewPage" resource="AleAdminNewPage::module"/>
+        <add id="AleAdminNewPage::module_section" title="pixel analitics" translate="title" module="AleAdminNewPage" parent="AleAdminNewPage::module" sortOrder="10" dependsOnModule="AleAdminNewPage" action="exampleadminnewpage/helloworld" resource="AleAdminNewPage::module"/>
+    </menu>
+</config>
