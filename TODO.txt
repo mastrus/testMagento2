@@ -1,0 +1,8 @@
+
+TODO verificare e concatenare i nomi/id del modulo per farli comparire nel menu admin
+
+TODO trasporre il form HTML di raccolta dati in forma compatibile con magento 2
+
+TODO inserire nel controller la cattura dei dati dal form e salvarli nel database
+
+TODO inserire nell' heder/footer del'homepage il pixel/analitics presenti
