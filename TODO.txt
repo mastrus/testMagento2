@@ -6,3 +6,5 @@ TODO trasporre il form HTML di raccolta dati in forma compatibile con magento 2
 TODO inserire nel controller la cattura dei dati dal form e salvarli nel database
 
 TODO inserire nell' heder/footer del'homepage il pixel/analitics presenti
+
+https://www.maximehuran.fr/en/layouts-and-forms-on-magento-2-admin/
